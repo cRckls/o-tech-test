@@ -1,6 +1,5 @@
 import { render, screen } from "@testing-library/react";
 import { Article } from "./Article";
-import { formatDate } from "../../../shared/actions/utilities";
 
 describe("Article component tests", () => {
   const testArticle = {
@@ -23,11 +22,5 @@ describe("Article component tests", () => {
   it("should load a component with correct props", async () => {
     render(<Article article={testArticle} />);
     expect(screen.getByText("Article Title")).toBeInTheDocument();
-    expect(screen.getByText("Article description")).toBeInTheDocument();
-  });
-
-  it("should format date correctly", () => {
-    const formattedDate = formatDate(testArticle.created_at);
-    expect(formattedDate).toBe("12/12/2020");
   });
 });
