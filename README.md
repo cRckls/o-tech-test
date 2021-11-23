@@ -3,10 +3,10 @@
 
 **TO RUN:**
 Install Node.js if you haven't got it already - https://nodejs.org/en/  
-Clone this git repository into a folder of your choice.  
-Open a command prompt in the new *o-tech-test* folder and enter "npm i"  
-This will install everything that the app needs into the node_modules folder.  
-Then enter "npm start" to run the app. If it doesn't load in the browser automatically, go to http://localhost:3000/ in a browser.  
+Open a command prompt or powershell window to a folder of your choice. Enter ```git clone https://github.com/cRckls/o-tech-test.git``` to get the files from this repsitory.  
+Change directory to the new *o-tech-test* folder by entering ```cd o-tech-test``` and then enter ```npm i```     
+This will install everything that the app needs into a *node_modules* folder.    
+Then enter ```npm start``` to run the app. If it doesn't open automatically, go to http://localhost:3000/ in a browser.  
   
 **Process**  
   
