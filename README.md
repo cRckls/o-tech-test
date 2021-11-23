@@ -21,7 +21,7 @@ Made the decision to use Typesecript, so that the objects I’m passing around w
 First goal was to get the data and display it on screen somehow. Used axios to get the data from the url and return it. Set this up in a file that the whole app could share, and wrote a quick test to check it was returning data.
 
 **features/Articles/article-model.ts**  
-Then I went about setting up the structure for the articles. Defined the article model using the fields I wanted to display.
+Then I went about setting up the structure for the articles. Defined the article model using the fields I wanted to display. In reality we would probably bring back most of the fields as we would be doing more with the data.
 
 **/Articles.container.tsx**  
 Set up the structure for the listing page. Started with the container which will go and get the data and pass it down to the child components.
