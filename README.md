@@ -15,7 +15,7 @@ Had a look at the data, could see it was made up of “articles” and was simil
 
 Kicked off a react project by using create-react-app. In a real production situation I would probably spend more time on this step, or eject it and alter the webpack / babel setup from there.
 
-Made the decision to use Typesecript, so that the objects I’m passing around would be well defined and it would be clearer to follow, and flag up any bugs quicker. For something like this it might not be completely necessary, but I treated this like a project that would grow and become a lot larger than this task.
+Made the decision to use TypeScript, so that the objects I’m passing around would be well defined and it would be clearer to follow, and flag up any bugs quicker. For something like this it might not be completely necessary, but I treated this like a project that would grow and become a lot larger than this task.
 
 **Actions / getArticles.ts**  
 First goal was to get the data and display it on screen somehow. Used axios to get the data from the url and return it. Set this up in a file that the whole app could share, and wrote a quick test to check it was returning data.
@@ -70,7 +70,7 @@ I would also set up Storybook early on in the project, to help keep track of wha
 
 There might well be some reorganisation of the folder and file structure as it grew as well. It might be that Article becomes more generic and there are further components for other list items. Also if we start having more api calls we might want to organise that section into a better structure.
 
-Routing - We only really have a couple of pages at the moment, but any more and we probably want to set up some sort of routing. I would probably use react-router as that’s what I’m familiar with.
+Routing would be a really useful next step as it would allow users to share direct links to articles. I would probably use react-router for this.
 
 
 
