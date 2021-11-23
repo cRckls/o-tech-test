@@ -1,6 +1,15 @@
 # o-tech-test
 **Tech Test for OLIO**  
 
+**TO RUN:**
+Install Node.js if you haven't got it already - https://nodejs.org/en/  
+Open a command prompt or powershell window to a folder of your choice. Enter ```git clone https://github.com/cRckls/o-tech-test.git``` to get the files from this repsitory.  
+Change directory to the new *o-tech-test* folder by entering ```cd o-tech-test``` and then enter ```npm i```     
+This will install everything that the app needs into a *node_modules* folder.    
+Then enter ```npm start``` to run the app. If it doesn't open automatically, go to http://localhost:3000/ in a browser.  
+  
+**Process**  
+  
 Started by reading the spec, to make sure I had a good understanding of what I needed to do.
 Had a look at the data, could see it was made up of “articles” and was similar data to the OLIO app.
 
