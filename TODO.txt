@@ -1,0 +1,24 @@
+get data
+-axios/fetch
+
+show data in list
+- article container
+- list component
+- item component
+- detail view component
+- link list to view
+- save state of article to state and session
+- save ids of read articles
+
+
+map view
+- map coordinates to points
+- link to detail view
+
+testing
+- test data being returned
+- test components - jest
+
+styling
+- css-modules
+- global styles

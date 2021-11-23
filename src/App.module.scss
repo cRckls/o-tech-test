@@ -1,0 +1,61 @@
+@import "./shared/styles/helpers.scss";
+
+* {
+  box-sizing: border-box;
+  margin-top: 0;
+}
+html {
+  background-color: $col-bg;
+}
+header {
+  text-align: center;
+  margin-bottom: $sp-m;
+  svg {
+    width: 200px;
+  }
+}
+.app {
+  padding-top: $sp-m;
+
+  h1 {
+    font-size: rem(28);
+    line-height: rem(32);
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  h2 {
+    font-size: rem(22);
+    line-height: rem(32);
+    font-weight: bold;
+    font-weight: normal;
+  }
+  h3 {
+    font-size: rem(18);
+    line-height: rem(24);
+    font-weight: bold;
+  }
+  P {
+    font-size: rem(16);
+    line-height: rem(20);
+    font-weight: normal;
+  }
+}
+
+:global {
+  .mb-0 {
+    margin-bottom: 0;
+  }
+  .mb-s {
+    margin-bottom: $sp-s;
+  }
+  .mb-m {
+    margin-bottom: $sp-m;
+  }
+  .mb-l {
+    margin-bottom: $sp-l;
+  }
+  .mb-xl {
+    margin-bottom: $sp-xl;
+  }
+}

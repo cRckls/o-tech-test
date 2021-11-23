@@ -1,0 +1,18 @@
+@import "../../../shared//styles/helpers.scss";
+
+.articleList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (min-width: 900px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    grid-gap: $sp-s;
+    width: calc(100vw - #{$sp-m});
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+  }
+}

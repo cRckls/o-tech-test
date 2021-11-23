@@ -1,0 +1,14 @@
+$sp-s: 10px;
+$sp-m: 20px;
+$sp-l: 40px;
+$sp-xl: 60px;
+
+@function rem($px-size) {
+  $rem-size: $px-size / 16;
+
+  @return #{$rem-size}rem;
+}
+
+$col-olio: #00ac9f;
+$col-alt: #b34f99;
+$col-bg: #f5f5f5;

@@ -1,0 +1,54 @@
+@import "../../../shared//styles/helpers.scss";
+
+.article {
+  position: relative;
+  h3 {
+    font-size: 22px;
+  }
+
+  margin-bottom: $sp-m;
+  width: calc(100vw - #{$sp-m});
+  max-width: 600px;
+  text-align: left;
+  padding: 0;
+
+  @media screen and (min-width: 900px) {
+    height: 100%;
+    width: auto;
+  }
+}
+
+.articleTarget {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 0;
+  padding: $sp-s;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+  text-align: left;
+  display: flex;
+}
+
+.btnClose {
+  position: absolute;
+  top: $sp-m;
+  right: $sp-m;
+}
+
+.articleImage {
+  width: 20%;
+  flex: none;
+  margin-right: $sp-m;
+}
+
+.articleLabel {
+  position: absolute;
+  left: $sp-s / 2;
+  top: $sp-s / 2;
+  background-color: $col-alt;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #fff;
+  border: 2px solid #fff;
+}

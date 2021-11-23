@@ -1,0 +1,33 @@
+@import "../../../shared//styles/helpers.scss";
+
+.articleDetail {
+  position: relative;
+  h3 {
+    font-size: 22px;
+  }
+
+  margin-bottom: $sp-m;
+  width: calc(100vw - #{$sp-m});
+  max-width: 600px;
+  text-align: left;
+  padding: $sp-m;
+
+  @media screen and (min-width: 900px) {
+    height: 100%;
+    width: auto;
+  }
+}
+
+.btnClose {
+  position: absolute;
+  top: $sp-m;
+  left: $sp-m;
+}
+
+.button {
+  background-color: $col-alt;
+  color: #fff;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 4px;
+}
