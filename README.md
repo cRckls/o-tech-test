@@ -2,14 +2,14 @@
 **Tech Test for OLIO**  
 
 **TO RUN:**
-Install Node.js if you haven't got it already - https://nodejs.org/en/
-Clone this git repository into a folder of your choice.
-Open a command prompt in the new *o-tech-test* folder and enter "npm i"
-This will install everything that the app needs into the node_modules folder.
-Then enter "npm start" to run the app. If it doesn't load in the browser automatically, go to http://localhost:3000/ in a browser.
-
-**Process**
-
+Install Node.js if you haven't got it already - https://nodejs.org/en/  
+Clone this git repository into a folder of your choice.  
+Open a command prompt in the new *o-tech-test* folder and enter "npm i"  
+This will install everything that the app needs into the node_modules folder.  
+Then enter "npm start" to run the app. If it doesn't load in the browser automatically, go to http://localhost:3000/ in a browser.  
+  
+**Process**  
+  
 Started by reading the spec, to make sure I had a good understanding of what I needed to do.
 Had a look at the data, could see it was made up of “articles” and was similar data to the OLIO app.
 
