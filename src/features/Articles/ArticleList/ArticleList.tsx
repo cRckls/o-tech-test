@@ -26,7 +26,11 @@ const ArticleList = ({
           Array.isArray(articles) &&
           articles.map((article: ArticleModel) =>
             article.isOpen ? (
-              <ArticleDetail article={article} onClose={articleOnClose} />
+              <ArticleDetail
+                key={article.id}
+                article={article}
+                onClose={articleOnClose}
+              />
             ) : (
               <Article
                 key={article.id}
