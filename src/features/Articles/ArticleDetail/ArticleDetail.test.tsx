@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { ArticleDetail } from "./ArticleDetail";
-import { formatDate } from "../../../shared/actions/utilities";
+import { formatDate } from "../../../shared/utilities";
 
 describe("Article component tests", () => {
   const testArticle = {

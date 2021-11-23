@@ -1,7 +1,7 @@
 import { Card } from "../../../shared/components/Card/Card";
 import { CardImage } from "../../../shared/components/Card/CardImage";
 import { ArticleModel } from "../Article/article-model";
-import { formatDate } from "../../../shared/actions/utilities";
+import { formatDate } from "../../../shared/utilities";
 import styles from "./ArticleDetail.module.scss";
 
 interface ArticleDetailProps {

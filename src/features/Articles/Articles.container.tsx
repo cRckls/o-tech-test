@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getArticles } from "../../shared/actions/getArticles";
+import { getArticles } from "../../shared/api/getArticles";
 import { ArticleList } from "./ArticleList/ArticleList";
 import { ArticleModel } from "./Article/article-model";
 
@@ -8,7 +8,7 @@ const Articles = () => {
   const [displayArticles, setDisplayArticles] = useState<Array<ArticleModel>>(
     []
   );
-  const [articlesLoaded, setArticlesLoaded] = useState<boolean>(false);
+  const [articlesLoaded, setArticlesLoaded] = useState(false);
   const [readArticles, setReadArticles] = useState<Array<string>>([]); // todo - save this in session state to persist read status
 
   const handleArticleClick = (id: string) => {
